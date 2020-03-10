@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var palavra = "dog";
+        var vetor = palavra.split ("")
+        var resultado = ""
+
+        for (var i=0;i<vetor.length; i++){
+            for (var j=0; j<vetor.length;j++){
+                for (var k=0; k<vetor.length;k++){
+                    if (i !=j && i != k && j != k){
+                        resultado = vetor [i]+vetor[j]+vetor[k]
+                        console.log(resultado)
+
+                    }
+                }
+            }
+        }
+
+        
+        </script>
+    
+</body>
+</html>
